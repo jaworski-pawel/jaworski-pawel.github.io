@@ -11,6 +11,26 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#">Paweł Jaworski</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">O mnie</a></li>
+                        <li><a href="#skills">Umiejętności</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="jumbotron text-center">
             <h1>Paweł Jaworski</h1>
             <p>Front-end developer</p>
@@ -88,26 +108,11 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
-                    </button>
-                    <a class="navbar-brand" href="#">Paweł Jaworski</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#about">O mnie</a></li>
-                        <li><a href="#skills">Umiejętności</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Kontakt</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <footer class="container-fluid text-center">
+            <a href="#myPage" title="Na górę">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+        </footer>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

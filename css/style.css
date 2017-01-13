@@ -1,3 +1,17 @@
+.navbar li a, .navbar .navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0078d7 !important;
+    background-color: #ffffff !important;
+}
+
+.navbar-defult .navbar-toogle {
+    border-color: transparent;
+    color: #ffffff !important;
+}
+
 .jumbotron {
     background-color: #0078d7;
     color: #ffffff;
@@ -27,16 +41,8 @@
     border: 0;
 }
 
-.navbar li a, .navbar .navbar-brand {
-    color: #ffffff !important;
-}
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #0078d7 !important;
-    background-color: #ffffff !important;
-}
-
-.navbar-defult .navbar-toogle {
-    border-color: transparent;
-    color: #ffffff !important;
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #0078d7
 }
