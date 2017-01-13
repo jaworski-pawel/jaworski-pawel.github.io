@@ -41,14 +41,14 @@
                     <h2>O mnie</h2>
                     <p>Nazywam się Paweł Jaworski i jestem początkującym front-end developerem. Jestem osobą lojalną, systematyczną, pracowitą i uczciwą. Szybko się uczę i lubię wyzwania. Powierzone mi zadania wykonuję sumiennie i dokładnie. Mam podstawową wiedzę z zakresu budowy stron www. Znam również podstawy programowania obiektowego. Chciałbym poszerzyć swoją wiedzę i nabyć praktyki programistycznej.</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 text-center">
                     <span class="glyphicon glyphicon-user logo"></span>
                 </div>
             </div>
         </div>
         <div class="container-fluid bg-grey">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 text-center">
                     <span class="glyphicon glyphicon-education logo"></span>
                 </div>
                 <div class="col-sm-8">
@@ -150,11 +150,13 @@
                 </div>
             </div>
         </div>
-        <div id="contact" class="container-fluid">
-            <h2 class="text-center">Kontakt</h2>
+        <div id="contact" class="container-fluid text-center">
+            <h2>Kontakt</h2>
             <div class="row">
-                <div>
-                    <p>Jakis tam kontakt</p>
+                <div class="contact-data">
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Zawieprzyce k.Lublina</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> 722275125</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:pawel.jaworski@live.com">pawel.jaworski@live.com</a></p>
                 </div>
             </div>
         </div>
@@ -166,4 +168,20 @@
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        //Płynne przewijanie strony
+        $(document).ready(function(){
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        })
+    </script>
 </html>
