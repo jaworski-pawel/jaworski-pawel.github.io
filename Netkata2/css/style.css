@@ -114,10 +114,6 @@ nav a.active {
     }
 }
 
-section {
-    height: 90%;
-}
-
 img.under {
     width: 100%;
     border: 1px blue solid;
