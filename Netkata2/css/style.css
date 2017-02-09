@@ -97,10 +97,6 @@ nav a.active {
     right: 0px;
 }
 
-div.container img {
-    width: 100%;
-}
-
 @media only screen and (max-width: 1280px) {
     nav {
         display: none;
@@ -116,4 +112,13 @@ div.container img {
         top: 0px;
         right: 180px;
     }
+}
+
+section {
+    height: 90%;
+}
+
+img.under {
+    width: 100%;
+    border: 1px blue solid;
 }
