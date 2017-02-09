@@ -114,7 +114,11 @@ nav a.active {
     }
 }
 
+div#welcome {
+    padding: 0px;
+    margin: 0px;
+}
+
 img.under {
-    width: 100%;
     border: 1px blue solid;
 }
