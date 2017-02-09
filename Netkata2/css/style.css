@@ -121,4 +121,14 @@ div#welcome {
 
 img.under {
     border: 1px blue solid;
+    width: 100%;
+}
+div#footer-top {
+    border: 1px solid green;
+}
+
+div#links {
+    width: 50%;
+    border: 1px solid red;
+    float: left;
 }
