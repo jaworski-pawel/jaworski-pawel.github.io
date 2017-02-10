@@ -1,10 +1,5 @@
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
 #logo {
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 11%;
 }
@@ -56,7 +51,7 @@ body {
 }
 
 nav {
-    position: fixed;
+    position: absolute;
     top: 0px;
     right: 80px;
 }
@@ -92,9 +87,116 @@ nav a.active {
     width: 70px;
     height: 13px;
     float: left;
-    position: fixed;
+    position: absolute;
     top: 87px;
     right: 0px;
+}
+
+#slider {
+    background-color: aquamarine;
+}
+
+#welcome {
+    background-color: bisque;
+}
+
+#news {
+}
+
+footer {
+    color: #677279;
+}
+
+footer a, footer a:hover{
+    color: #677279;
+}
+
+div#footer-top {
+    background-color: #455560;
+}
+
+div#footer-top-left {
+    padding-top: 100px;
+    padding-left: 9%;
+}
+
+div.col-links {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+div.col-links ul {
+    list-style: none;
+    padding: 0 30px;
+}
+
+div.col-links-left ul {
+    padding-left: 0;
+} 
+
+div.col-links-center ul {
+    border-left: 1px solid #677279;
+    border-right: 1px solid #677279;
+}
+
+div#footer-top-right {
+    font-family: 'novecento_sans_widebook', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 110px 9% 110px 0;
+    text-align: right;
+}
+
+label {
+    padding-right: 60px;
+}
+
+input[type=email] {
+    height: 61px;
+    width: 292px;
+    border: 2px solid #2d3439;
+    background-color: #455560;
+}
+
+input[type=submit] {
+    background-color: #2d3439;
+    width: 240px;
+    height: 61px;
+    border: 0;
+    padding: 0;
+}
+
+div#footer-bottom {
+    background-color: #2d3439;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+div#footer-bottom-left {
+    padding-left: 9%;
+}
+
+div#footer-bottom-left img {
+    float: left;
+    padding: 38px 0;
+}
+
+div#footer-bottom-left p {
+    padding: 40px 0;
+    margin-left: 40px;
+}
+
+div#footer-bottom-right {
+    padding-right: 9%;
+    text-align: right;
+}
+
+div#footer-bottom-right p {
+    padding: 40px 0;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -102,33 +204,44 @@ nav a.active {
         display: none;
     }
     
-    # decor {
-        display: none;
-    }
-    
     #nav-mobile {
         display: inline;
-        position: fixed;
+        position: absolute;
         top: 0px;
         right: 180px;
     }
 }
 
-div#welcome {
-    padding: 0px;
-    margin: 0px;
-}
-
-img.under {
-    border: 1px blue solid;
-    width: 100%;
-}
-div#footer-top {
-    border: 1px solid green;
-}
-
-div#links {
-    width: 50%;
-    border: 1px solid red;
-    float: left;
+@media only screen and (max-width: 640px) {
+    div.col-links-center ul {
+        border: 0;
+    }
+    
+    div.col-links-left ul {
+        padding-left: 30px;
+    }
+    
+    input[type=email] {
+        width: 240px;
+    }
+    
+    #decor {
+        display: none;
+    }
+    
+    #logo {
+        width: 60px;
+        height: 60px;
+        position: static;
+        padding: 10px;
+    }
+    
+    #nav-mobile {
+        position: absolute;
+        top: 20px
+    }
+    
+    .menu-element-line {
+        display: none;
+    }
 }
