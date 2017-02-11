@@ -1,3 +1,5 @@
+/* header */
+
 #logo {
     position: absolute;
     top: 20px;
@@ -92,16 +94,126 @@ nav a.active {
     right: 0px;
 }
 
+@media only screen and (max-width: 1280px) {
+    nav {
+        display: none;
+    }
+    
+    #nav-mobile {
+        display: inline;
+        position: absolute;
+        top: 0px;
+        right: 180px;
+    }
+}
+
+/* slider */
+
 #slider {
-    background-color: aquamarine;
+    
 }
 
-#welcome {
-    background-color: bisque;
+/* welcome */
+
+section#welcome, section#news {
+    position: relative;
+    0px;
+    0px;
 }
 
-#news {
+div#welcome-img img {
+    z-index: -1;
 }
+
+div#welcome-content {
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    width: 40%;
+}
+
+div#welcome-content h1 {
+    font-family: 'novecento_sans_widebook', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+div#welcome-content h2 {
+    font-family: 'novecento_sans_widebook', sans-serif;
+    color: #bdad80;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+div#welcome-content p {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+div.read-more-btn {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+}
+
+@media only screen and (max-width: 1430px) {
+    div#welcome-content h1 {
+        font-size: 30px;
+    }
+    
+    div#welcome-content h2 {
+        font-size: 20px;
+    }
+    
+    div#welcome-content p {
+        font-size: 12px;
+        line-height: normal;
+    }
+    
+    div.read-more-btn img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    div#welcome-content h1 {
+        font-size: 16px;
+    }
+    
+    div#welcome-content h2 {
+        font-size: 12px;
+    }
+    
+    div#welcome-content p {
+        font-size: 8px;
+        line-height: normal;
+    }
+    
+    div.read-more-btn img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    div#welcome-content {
+        width: 80%;
+        top: 0%;
+    }
+    
+    div.read-more-btn {
+        position: absolute;
+        top: 10%;
+        left: 70%;
+    }
+}
+
+/* footer */
 
 footer {
     color: #677279;
@@ -197,19 +309,6 @@ div#footer-bottom-right {
 
 div#footer-bottom-right p {
     padding: 40px 0;
-}
-
-@media only screen and (max-width: 1280px) {
-    nav {
-        display: none;
-    }
-    
-    #nav-mobile {
-        display: inline;
-        position: absolute;
-        top: 0px;
-        right: 180px;
-    }
 }
 
 @media only screen and (max-width: 640px) {
