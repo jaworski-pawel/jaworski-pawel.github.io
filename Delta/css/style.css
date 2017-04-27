@@ -8,9 +8,18 @@ img {
     height: 30px;
 }
 
-#welcome {
-    padding: 30px;
+/* welcome */
+
+#welcome-text p {
+    font-size: 150%;
+    margin: 80px;
 }
+
+#welcome-img {
+    text-align: center;
+}
+
+/* slider */
 
 div.slideshow-container {
     max-width: 400px;
@@ -49,6 +58,12 @@ div.slideshow-nav {
   to {opacity: 1}
 }
 
+/* download */
+
+#download {
+    padding: 20px;
+}
+
 .div-button {
     text-align: center;
     margin: 20px;
@@ -62,6 +77,20 @@ div.slideshow-nav {
     width: 230px;
 }
 
+/* support */
+
+#support {
+    text-align: center;
+    padding: 10px;
+}
+
 .grey-bg {
     background-color: lightgrey;
+}
+
+@media only screen and (max-width: 720px) {
+    #welcome-text p {
+    font-size: 100%;
+    margin: 10px;
+    }
 }
