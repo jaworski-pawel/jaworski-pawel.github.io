@@ -115,7 +115,7 @@ nav a.active {
 
 /* welcome */
 
-section#welcome, section#news {
+section#welcome {
     position: relative;
     0px;
     0px;
@@ -211,6 +211,61 @@ div.read-more-btn {
         top: 10%;
         left: 70%;
     }
+}
+
+/* news */
+
+section#news {
+    position: relative;
+    0px;
+    0px;
+}
+
+div#news-img img {
+    z-index: -1;
+}
+
+div.news-content {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 61%;
+}
+
+div.news-content-col {
+    display: inline-block;
+    border: 1px solid red;
+    width: 40%;
+}
+
+div.news-content h1 {
+    font-family: 'novecento_sans_widebook', sans-serif;
+    color: #4d565d;
+    font-size: 60px;
+    font-weight: 300;
+    border-bottom: 2px solid #4d565d;
+}
+
+div.news-content p.news-date {
+    font-family: 'novecento_sans_widebook', sans-serif;
+    color: #a29061;
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+div.news-content h2 {
+    font-family: 'novecento_sans_widebook', sans-serif;
+    color: #4d565d;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+div.news-content p {
+    font-family: 'Open Sans', sans-serif;
+    color: #4d565d;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* footer */
