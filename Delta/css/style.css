@@ -8,6 +8,10 @@ img {
     height: 30px;
 }
 
+.grey-bg {
+    background-color: lightgrey;
+}
+
 /* welcome */
 
 #welcome-text p {
@@ -84,8 +88,19 @@ div.slideshow-nav {
     padding: 10px;
 }
 
-.grey-bg {
-    background-color: lightgrey;
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#support h3 {
+    color: rgb(0,150,136);
+}
+
+/* help */
+
+#help h3 {
+    color: rgb(0,150,136);
 }
 
 @media only screen and (max-width: 720px) {

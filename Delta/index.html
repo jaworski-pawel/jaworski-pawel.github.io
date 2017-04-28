@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="css/icon.css">
         <link rel="stylesheet" href="css/material.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <script defer src="js/material.min.js"></script>
     </head>
     <body>
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -105,7 +104,6 @@
                            <span class="dot"></span> 
                            <span class="dot"></span> 
                         </div>
-                        <script src="js/slideshow.js"></script>
                     </section>
                     <section id="download">
                         <div class="div-button">
@@ -126,31 +124,100 @@
                           </div>
                     </section>
                     <section id="support" class="grey-bg">
-                        <h2>Jak wesprzeć projekt?</h2>
-                        <p>Delta Chat jest oprogramowaniem open source. Możesz wesprzeć jego dalszy rozwój.</p>
-                        <h3>Dotacje</h3>
-                        <p>Rozwój oprogramowania kosztuje. Twoja dotacja będzie bezpośrednio wspierać przyszłe udoskonalenia.</p>
-                        <ul>
-                            <li>PayPal lub karta kredytowa <a href="https://www.paypal.com/uk/cgi-bin/webscr?cmd=_flow&SESSION=cK64SDYNvYS69bfVYoZs-er30J87lG45Q5itt_2xr9l_fd3DbDl6p1rjgli&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080"><img src="img/paypal-donate.gif" alt="Dotacja PayPal"></a></li>
-                            <li>Wyslij bitcoiny na <a href="bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L">18e3zwis2raitdZVhEhHHT7xG6oXsZte9L <img src="img/bitcoin.png" alt="Bitcoin"></a></li>
-                        </ul>
-                        <h3>Tłumaczenie</h3>
-                        <p>Pomóż w tłumaczeniu Delta Chat na swój język używając Android Studio oraz "Pull Request". Alternatywnie możesz wysłać nam przetłumaczony plik "strings.xml".</p>
+                        <div class="container">
+                            <h2>Jak wesprzeć projekt?</h2>
+                            <p>Delta Chat jest oprogramowaniem open source. Możesz wesprzeć jego dalszy rozwój.</p>
+                            <h3>Dotacje</h3>
+                            <p>Rozwój oprogramowania kosztuje. Twoja dotacja będzie bezpośrednio wspierać przyszłe udoskonalenia.</p>
+                            <ul>
+                                <li>PayPal lub karta kredytowa <a href="https://www.paypal.com/uk/cgi-bin/webscr?cmd=_flow&SESSION=cK64SDYNvYS69bfVYoZs-er30J87lG45Q5itt_2xr9l_fd3DbDl6p1rjgli&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080"><img src="img/paypal-donate.gif" alt="Dotacja PayPal"></a></li>
+                                <li>Wyslij bitcoiny na <a href="bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L">18e3zwis2raitdZVhEhHHT7xG6oXsZte9L <img src="img/bitcoin.png" alt="Bitcoin"></a></li>
+                            </ul>
+                            <h3>Tłumaczenie</h3>
+                            <p>Pomóż w tłumaczeniu Delta Chat na swój język używając Android Studio oraz "Pull Request". Alternatywnie możesz wysłać nam przetłumaczony plik "strings.xml".</p>
+                            <h3>Programiści</h3>
+                            <p>Oczywiście twórcy otwartego oprogramowania są mile widziani. Możesz udoskonalać Delta Chat i wysłać nam Pull Request. Możesz też skontaktować się z nami na r10s AT b44t DOT com</p>
+                            <h3>Promuj nas</h3>
+                            <p>Warto mówić innym o tym projekcie. Trzeba jednak zauważyć, że Delta Chat jest nadal w wersji beta i nie jest jeszcze przeznaczony do codziennego użytku. Oczywiście gdy tylko Delta Chat osiągnie wersję 1.0, będzie rekomendowany dla wszystkich.</p>
+                            <h3>Raporty o błędach</h3>
+                            <p>Zgłaszaj w naszym serwisie błędy w oprogramowaniu. Jeśli to możliwe dołącz dokładny opis. Zrzuty ekranu również bywają pomocne.</p>
+                            <ul>
+                                <li><a href="https://github.com/r10s/messenger-android/issues">Android</a></li>
+                                <li><a href="https://github.com/r10s/messenger-backend/issues">Niezależne od systemu</a></li>
+                            </ul>
+                        </div>
                     </section>
                     <section id="help">
-                        Pomoc
+                        <div class="container">
+                            <h2>FAQ</h2>
+                            <h3>Do kogo mogę napisać?</h3>
+                            <ul>
+                                <li>Dzięki Delta Chat możesz pisać do innych użytkowników Delta Chat lub innych klientów poczty e-mail. Jest to jedna z największych różnic w stosunku do komunikatorów: nie ma potrzeby, aby odbiorca zainstalował tę samą aplikację co Ty.</li>
+                            </ul>
+                            <h3>Jakie są zalety Delta Chat w porównaniu z innymi komunikatorami?</h3>
+                            <ul>
+                                <li>Niezależny od firm i usług. Posiadasz swoje dane.</li>
+                                <li>Twoje dane nie są zapisywane na centralnym serwerze. W ten sposób, w przeciwieństwie do większości innych komunikatorów, Delta Chat nawet chroni Twoje metadane (kto pisze komu?)</li>
+                                <li>Nie udostępniasz nikomu swojej książki adresowej.</li>
+                                <li>Szybki dzieki użyciu Push-IMAP.</li>
+                                <li>Największa baza użytkowników - możesz rozmawiać z tymi, którzy nie posiadają Delta Chat.</li>
+                                <li>Kompatybilny - nie tylko sam ze sobą.</li>
+                                <li>Elegancki i prosty interfejs.</li>
+                                <li>Rozproszony system.</li>
+                                <li>Brak spamu - domyślnie wyświetlane są tylko wiadomości znanych użytkowników.</li>
+                                <li>Niezawodny - bezpieczny do użytku profesjonalnego.</li>
+                                <li>Zaufana - może być nawet wykorzystywana do wiadomości biznesowych.</li>
+                                <li>W pełni opensource. Oparty na standardach.</li>
+                            </ul>
+                            <h3>Co jeśli odbiorca nie używa Delta Chat?</h3>
+                            <ul>
+                                <li>Odbiorca otrzyma normalny e-mail, a jeśli odpowie, zobaczysz odpowiedź w aplikacji Delta Chat.</li>
+                            </ul>
+                            <h3>Czy Delta Chat obsługuje zdjęcia, filmy wideo i inne załączniki?</h3>
+                            <ul>
+                                <li>Tak. Oprócz zwykłego tekstu wszystkie załączniki wiadomości e-mail są wyświetlane jako osobne wiadomości. Wiadomości wychodzące otrzymają automatycznie załączniki w razie potrzeby</li>
+                            </ul>
+                            <h3>Czy Delta Chat obsługuje wiadomości HTML?</h3>
+                            <ul>
+                                <li>Tak. Jeśli przychodzący e-mail nie ma zwykłej części tekstowej, konwertujemy wiadomości HTML na zwykły tekst. Poczta wychodząca zawsze używa zwykłego tekstu.</li>
+                            </ul>
+                            <h3>Jak utworzyć grupę?</h3>
+                            <ul>
+                                <li>Wybierz Dodaj grupę z menu w lewym górnym rogu czatu.</li>
+                                <li>Na następnym ekranie wybierz członków grupy i kliknij znacznik wyboru w prawym górnym rogu. Następnie można zdefiniować nazwę grupy.</li>
+                                <li>Gdy tylko napiszesz pierwszą wiadomość z grupy, wszyscy członkowie zostaną poinformowani o nowej grupie i mogą odpowiedzieć w grupie (dopóki nie napiszesz wiadomości w grupie, której grupa jest niewidoczna dla członków).</li>
+                            </ul>
+                            <h3>Kto może dodawać członków do grupy?</h3>
+                            <ul>
+                                <li>Każdy członek grupy ma te same prawa co inni. Z tego powodu każdy może usunąć każdego członka lub dodać nowe.</li>
+                                <li>Aby dodać lub usunąć członków, kliknij nazwę grupy w czacie.</li>
+                            </ul>
+                            <h3>Usunąłem się przez przypadek.</h3>
+                            <ul>
+                                <li>Ponieważ już nie jesteś już członkiem grupy, nie możesz się znowu dodać. Jednak nie ma problemu, wystarczy poprosić innego członka grupy w normalny czat, aby dodać Cię ponownie.</li>
+                            </ul>
+                            <h3>Nie chcę już odbierać wiadomości grupy.</h3>
+                            <ul>
+                                <li>Usunąć się z listy członków lub usunąć cały czat. Jeśli chcesz dołączyć do grupy później, poproś innego członka grupy o dodanie Cię ponownie.</li>
+                                <li>Alternatywnie można też "wyciszyć" grupę - gdy to zrobisz, otrzymasz wszystkie wiadomości i nadal możesz pisać, ale już nie będziesz już informowany o nowych wiadomościach.</li>
+                            </ul>
+                        </div>
                     </section>
                     <footer class="mdl-mini-footer">
                         <div class="mdl-mini-footer__left-section">
                             <div class="mdl-logo">Delta Chat</div>
+                        </div>
+                        <div class="mdl-mini-footer__right-section">
                             <ul class="mdl-mini-footer__link-list">
-                                <li><a href="#">Help</a></li>
-                                <li><a href="#">Kontakt</a></li>
+                                <li>Oficjalna strona <a href="https://getdelta.org/">Delta Chat</a></li>
+                                <li>Wykonanie i tłumaczenie: <a href="http://jaworski-pawel.github.io">Paweł Jaworski</a></li>
                             </ul>
                         </div>
                     </footer>
                 </div>
             </main>
         </div>
+        <script src="js/slideshow.js"></script>
+        <script src="js/material.min.js"></script>
     </body>
 </html>
