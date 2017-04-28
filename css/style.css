@@ -44,10 +44,23 @@ body {
     font-size: 200px;
 }
 
+#skills h4 {
+    padding: 20px;
+}
+
 .skills-logo img {
     margin: 0 auto 10px;
     max-width: 200px;
     max-height: 200px;
+}
+
+#portfolio h4 {
+    padding: 20px;
+}
+
+#portfolio a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .portfolio-thumbnail {
